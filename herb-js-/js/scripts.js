@@ -6,14 +6,14 @@ let herbList = [
         type: 'antibacterial',
         color: 'purple',
         height: 20
-    }
+    },
     {
         name: 'rosemary',
         latin: 'Rosmarinus officinalis',
         type: 'antimicrobial',
         color: 'green',
         height: 6
-    }
+    },
 
     {
         name:  'peppermint',
@@ -22,7 +22,7 @@ let herbList = [
         color:  'green',
         height:  18
     
- }
+ },
    {
     name: 'chamomile',
     latin: 'Matricaria chamomilla',
