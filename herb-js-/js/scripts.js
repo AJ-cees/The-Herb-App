@@ -18,7 +18,7 @@ let herbList = [
     {
         name:  'peppermint',
         latin:  'Mentha x piperita',
-        types:  'antimicrobial' , 
+        type:  'antimicrobial' , 
         color:  'green',
         height:  18
     
@@ -31,10 +31,17 @@ let herbList = [
     height: 3
 }
 ];
- 
+ //printing all herbs
+for (let i = 0; 
+    i < herbList.length; i++) {
+    if (herbList.height[i].height > 19) {
+        document.write(herbList[i].name + "is" + herbList[i].height + " inches tall and it is a " + herbList[i].type + "type! It is tall! <br>") 
+    }
+    else {
+        document.write(herbList[i].name + 'is' + herbList[i].height + ' inches tall and it is a ' + herbList[i].type + 'type!<br>')
+    }
+}
+    
 
-
-
- 
 
  
