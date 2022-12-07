@@ -34,7 +34,7 @@ let herbList = [
  //printing all herbs
 for (let i = 0; 
     i < herbList.length; i++) {
-    if (herbList.height[i].height > 19) {
+    if (herbList[i].height > 19) {
         document.write(herbList[i].name + "is" + herbList[i].height + " inches tall and it is a " + herbList[i].type + "type! It is tall! <br>") 
     }
     else {
