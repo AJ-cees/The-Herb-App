@@ -1,4 +1,4 @@
-let herbRepository = (function() {
+herbRepository.getAll().forEach(function(herbs)  {
     let herbList = [
         {
             name: 'lavender',
