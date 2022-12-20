@@ -1,4 +1,4 @@
-herbRepository.getAll().forEach(function(herbs)  {
+let herbRepository = (function() {
     let herbList = [
         {
             name: 'lavender',
@@ -49,7 +49,7 @@ console. log(herbRepository.getAll())
  //printing all herbs
 
     
- herbList.forEach(function(herbs) {
+ herbRepository.getAll().forEach(function(herbs) {
     console.log(herb.name + ' is  a ' + herb.type + '  of herb. ');
   });
 
