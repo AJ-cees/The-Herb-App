@@ -52,7 +52,7 @@ console. log(herbRepository.getAll())
  herbRepository.getAll().forEach(function(herb) {
     console.log(herb.name + ' is  a ' + herb.type + '  of herb. ');
   });
-  herbRepository.getAll .forEach(function(herb) {
+  herbRepository.getAll().forEach(function(herb) {
     if(herb.height <= 10) {
         document.write(herb.name + "(height: " + herb.hright + ")" + "<br>");
     } else {
