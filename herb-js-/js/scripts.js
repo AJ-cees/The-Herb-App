@@ -54,7 +54,7 @@ console. log(herbRepository.getAll())
   });
   herbRepository.getAll().forEach(function(herb) {
     if(herb.height <= 10) {
-        document.write(herb.name + "(height: " + herb.hright + ")" + "<br>");
+        document.write(herb.name + "(height: " + herb.height + ")" + "<br>");
     } else {
         document.write(herb.name + " (height: " + herb.height + ") - Woah, that's HUGE ! " + " <br>")
     }
